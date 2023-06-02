@@ -24,6 +24,11 @@
  * Copyright 2012-2013 Mattia Larentis
  * http://www.apache.org/licenses/LICENSE-2.0
  */
+.paragraphe {
+  justify-content: center;
+  align-items: center;
+}
+
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -5002,9 +5007,10 @@ Created using IcoMoon - icomoon.io
 
 .gallery .cc-porfolio-image figure img {
   position: relative;
-  display: block;
+  /* display: block; */
   max-width: 100%;
-  opacity: 1; }
+  opacity: 1;
+}
 
 .gallery .cc-porfolio-image figure figcaption {
   position: absolute;
